@@ -16,6 +16,8 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+because line number 5 has a local scope but line number 7 is in the global scope and does not have access to variable between brackets.
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +36,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+first console.log will print number 10 but second console.log will print undefined because it can't reach the local variable of y.
 
 ## Question 3
 
@@ -62,3 +66,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+console.log on theline 55 will print number nine without being updated it is const variable and also the function is not assigning new number but other consol.log will print {x: 10} because the value of const variable can be reasigned.
